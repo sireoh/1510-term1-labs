@@ -1,0 +1,37 @@
+package ca.bcit.comp1510.lab06;
+
+import java.util.Scanner;
+
+/**
+ * Experimenting with Integer classes.
+ * @author Vincent Fung
+ * @version 1.0
+ */
+
+public class NameDriver {
+    /**
+     * Program for names.
+     * @param args unused.
+     */
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        Name name = new Name();
+        System.out.println("Please give me your"
+                + "full name(First Middle Last): ");
+        String newF = scan.next();
+        String newM = scan.next();
+        String newL = scan.next();
+     
+        System.out.println("Please give me a #(n) from 0-17: ");
+        int n = scan.nextInt();
+        System.out.println("The character at: "
+                + n + " is: "
+                + name.findLetter(n));
+        
+        name.setFirstName(newF);
+        System.out.println(name.toString());
+        
+        scan.close();
+    }
+}

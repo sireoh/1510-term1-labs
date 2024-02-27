@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<checkstyle-configurations file-format-version="5.0.0" default-check-configuration="1510 Style">
+  <check-configuration name="1510 Style" location="D:\BCIT\COMP 1510\comp-1510-examples-master\comp-1510-examples-master\Comp1510Checkstyle.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </check-configuration>
+  <check-configuration name="Assignment1" location="D:\BCIT\COMP 1510\eclipse-workspace\Comp1510Assignment01FungV\Comp1510CheckstyleAssn1.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </check-configuration>
+</checkstyle-configurations>
