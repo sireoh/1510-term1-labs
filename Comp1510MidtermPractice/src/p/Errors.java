@@ -19,12 +19,7 @@ public class Errors {
         
         //Runtime error
         int x = 5;
-        int y = 0;
-
-        while (y < 10) {
-          int result = 5 / (x - y);
-          System.out.println("The result is: " + result);
-          y++;
-        }
-    }
+        int y = 9;
+        int z = 5 / (y - y);
+        System.out.println(z);
 }
